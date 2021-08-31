@@ -1,0 +1,122 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/image/1.jpg" class="d-block w-100" alt="image not found" style="height: 700px">
+        </div>
+        <div class="carousel-item">
+
+            <img src="~/image/2.jpg" class="d-block w-100" alt="image not found" height="700px">
+        </div>
+        <div class="carousel-item">
+            <img src="~/image/3.jpg" class="d-block w-100" alt="image not found" height="700px">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">
+        </span>
+        <span class="visually-hidden"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+    </button>`
+</div>
+<figure class="text-center">
+    <blockquote class="blockquote">
+        <p><b><h1> Welcome to India</h1></b></p>
+    </blockquote>
+</figure>
+<figure class="text-center">
+<blockquote class="blockquote">
+    <p><h3><i>Experience the subcontinent of nationalist.</i></h3></p><br />
+</blockquote>
+</figure>
+<div class="row">
+    <div class="col-md-4 my-2">
+        <div class="card" style="width: 18rem;">
+            <img src="~/image/manali1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Manali</h5>
+                <p class="card-text">A gift of the Himalayas to the world, Manali is a beautiful township nestled in the picturesque Beas River valley. It is a rustic enclave known for its cool climate and snow-capped mountains, offering respite to tourists escaping scorching heat of the plains.</p>
+                <a href="/Home/Manali" class="btn btn-primary">click here</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="~/image/kashmir1.jpg" class="card-img-top media-left" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kashmir</h5>
+                <p class="card-text">Kashmir is cradled high in the lofty green Himalayas and hailed all over the world for its incredible natural beauty. Surrounded by mountain peaks, lush green valleys, glistening lakes, temples and spectacular Mughal-era gardens, it has inspired poets through centuries.</p>
+                <a href="/Home/Kashmir" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="~/image/agra1.jpg" class="card-img-top media-right" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Agra</h5>
+                <p class="card-text">This city is situated on the river Yamuna banks in Uttar Pradesh. This city is filled with exquisite monuments belonging to the period of the Mughal Kingdom. This city also houses the most popular Taj Mahal, which is known to be one of the seven wonders present globally.</p>
+                <a href="/Home/Agra" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="~/image/kerrala1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kerala</h5>
+                <p class="card-text">Kerala, a very prominent state in India, known as the “God’s Own Country” is a coastal state. The state is bordered by a number of beaches; covered by hills of Western Ghats and filled with backwaters..</p>
+                <a href="/Home/Kerala" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="~/image/rajasthan1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Rajasthan</h5>
+                <p class="card-text">Rajasthan is one of the most precious jewel in India's crown.From gallent palacesand histotric forts to colourful festivals and wildlife adventures,the sate is india's pride.It is said there is more history in rajasthan in the rest of all India.</p>
+                <a href="/Home/Rajasthan" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="~/image/secret.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Pondicherry</h5>
+                <p class="card-text">Pondicherry’s bougainvilleas, crumbling cathedrals and leafy boulevards might occasionally make you wonder if you’re in the south of France instead of a former French colony.Quiet beaches stretch north and south from town, good for swimming and sunrise strolls.</p>
+                <a href="/Home/Pondicherry" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    var myCarousel = document.querySelector('#carouselExampleIndicators')
+    var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 100,
+        wrap: false
+    })
+
+</script>
